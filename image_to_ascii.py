@@ -4,7 +4,7 @@ from sys import argv
 
 def main():
   if len(argv) < 2:
-    print('usage: image_to_ascii.py [input_image] <compression> <-s> <-l>')
+    print('usage: image_to_ascii.py <input_image> [<compression>] [<-s> <-l>]')
 
   input_image = Image.open(argv[1])
   compression = int(argv[2]) if len(argv) > 2 else 12
