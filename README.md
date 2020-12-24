@@ -2,6 +2,10 @@
 
 A fun little program that turns a given image into ASCII Art 
 
+##### Input 
+
+<img src='./resources/dog.png' width=105 height=102 />
+
 ### Running
 
 ##### `python generate_char_set.py [<-a>]`
