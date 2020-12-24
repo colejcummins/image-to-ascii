@@ -4,7 +4,7 @@ from sys import argv
 
 def main():
   if len(argv) > 2:
-    print("usage: generate_char_set.py <-s>")
+    print("usage: generate_char_set.py <-a>")
 
   char_arr = create_font_mappings(argv[1:])
   write_char_set(char_arr)
