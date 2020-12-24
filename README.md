@@ -4,7 +4,13 @@ A fun little program that turns a given image into ASCII Art
 
 ##### Input 
 
-<img src='./resources/dog.png' width=105 height=102 />
+<img src='./resources/dog.png' width=260 height=255 />
+
+
+##### Output 
+
+<img src='./resources/dog_ascii.png' width=260 height=255 />
+
 
 ### Running
 
