@@ -16,7 +16,7 @@ A fun little program that turns a given image into ASCII Art
 
 ##### `python generate_char_set.py [<-a>]`
 
-Generates a character set from the Consolas font, mapping all 255 pixel intensisties to characters. 
+Generates a character set from the Consolas font, mapping all 256 pixel intensisties to characters. 
 The generated character set is then written to `./resources/char_set.txt`
 
 The character set by default only uses non-alphanumeric ascii characters. 
