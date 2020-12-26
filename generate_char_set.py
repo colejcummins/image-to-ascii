@@ -20,7 +20,7 @@ def create_font_mappings(args):
 
   char_arr = []
   for i in range(32, 127):
-    if '-s' in args and chr(i).isalnum():
+    if '-a' not in args and chr(i).isalnum():
       continue
     create_font_image(i, fnt)
     char_arr.append(read_font_image(i))
